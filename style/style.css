@@ -1,0 +1,42 @@
+body {
+    background-color: #f8f9fa; /* Light gray background */
+}
+.custom-card {
+    background-color: #6c757d; /* Gray background for the card */
+    color: #fff; /* White text */
+    position: relative; /* Enable positioning for header */
+    border-radius: 5px 5px 5px 5px; /* Rounded corners */
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1); /* Add slight shadow */
+    border: none;
+    padding: 1rem; /* Padding for card body */
+    padding-top: 3rem; /* Extra top padding to avoid overlap with header */
+    margin-bottom: 20px;
+}
+
+.custom-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.5rem 1rem; /* Add some padding */
+    color: #000; /* Black text for contrast */
+    border-radius: 5px 5px 5px 5px; /* Rounded corners for the header */
+    font-weight: bold;
+    font-size: 1rem; /* Adjust font size */
+    z-index: 1; /* Ensure it stays above the card body */
+}
+
+/* Header color variants */
+.chicken-header {
+    background-color: rgb(213, 152, 152); /* Pinkish color for Chicken */
+    border-radius: 5px 5px 5px 5px; /* Rounded corners */
+}
+
+.beef-header {
+    background-color: rgb(192, 57, 43); /* Red color for Beef */
+    border-radius: 5px 5px 5px 5px; /* Rounded corners */
+}
+
+.sushi-header {
+    background-color: rgb(241, 196, 15); /* Yellow color for Sushi */
+    border-radius: 5px 5px 5px 5px; /* Rounded corners */
+}
